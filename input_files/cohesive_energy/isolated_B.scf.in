@@ -1,0 +1,25 @@
+ &control
+    prefix        = 'boron',
+    calculation   = 'scf',
+    pseudo_dir    = '../../pseudo',
+    outdir        = '../../outdir'
+ /
+ &system    
+    ibrav         = 1,
+    celldm(1)     = 20.0
+    nat           = 1,
+    ntyp          = 1,
+    ecutwfc       = 70.0,
+    nspin=2,
+    starting_magnetization = 1.0
+    occupations= 'smearing',
+    smearing   = 'marzari-vanderbilt',
+    degauss    = 0.035
+ /
+ &electrons
+ /
+ATOMIC_SPECIES
+ B  10.811  B.pbesol-n-rrkjus_psl.1.0.0.UPF
+ATOMIC_POSITIONS alat
+ B 0.00 0.00 0.00
+K_POINTS gamma
