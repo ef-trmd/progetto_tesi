@@ -1,0 +1,43 @@
+&control
+    prefix        = 'borophene',
+    calculation   = 'relax',
+    pseudo_dir    = '../pseudo',
+    outdir        = '../outdir'
+    etot_conv_thr = 1.0d-03
+    forc_conv_thr = 1.0d-03
+ /
+ &system
+    ibrav         = 4,
+    celldm(1)     = 9.036, !sqrt(3)*2.7608 = 4.7818 A = 18.08 bohr
+    celldm(3)     = 2.797,  !(4.4582*3)/4.7818
+    nat           = 14,
+    ntyp          = 2,
+    ecutwfc       = 30,
+    occupations= 'smearing',
+    smearing   = 'marzari-vanderbilt',
+    degauss = 0.02
+ /
+ &electrons
+ /
+ &ions
+ /
+ATOMIC_SPECIES
+ B  10.811  B.pbesol-n-rrkjus_psl.1.0.0.UPF
+ Re 186.207 re_pbesol_v1.2.uspp.F.UPF
+ATOMIC_POSITIONS crystal
+Re 0.666667 0.000000 0.000000 0 0 0
+Re 0.000000 0.333333 0.000000 0 0 0
+Re 0.333333 0.666667 0.000000 0 0 0
+Re 0.000000 0.000000 0.166667
+Re 0.333333 0.333333 0.166667
+Re 0.666667 0.666667 0.166667
+B 0.333333 0.000000 0.333333
+B 0.666667 0.000000 0.333333
+B 0.000000 0.333333 0.333333
+B 0.333333 0.333333 0.333333
+B 0.666667 0.333333 0.333333
+B 0.000000 0.666667 0.333333
+B 0.333333 0.666667 0.333333
+B 0.666667 0.666667 0.333333
+K_POINTS automatic
+ 2 2 1 1 1 1
