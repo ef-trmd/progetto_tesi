@@ -1,0 +1,30 @@
+&control
+    prefix        = 'rhenium',
+    calculation   = 'scf',
+    pseudo_dir    = '../pseudo',
+    outdir        = '../outdir'
+ /
+  &system
+    ibrav         = 4,
+    celldm(1)     = 9.036, !sqrt(3)*2.7608 = 4.7818 A = 9.036 bohr
+    celldm(3)     = 3.729, !4.458*4/4.7818 con spacing = 4.458*3 = 13.374 A
+    nat           = 6,
+    ntyp          = 1,
+    ecutwfc       = 50,
+    occupations= 'smearing',
+    smearing   = 'marzari-vanderbilt',
+    degauss = 0.02
+ /
+ &electrons
+ /
+ATOMIC_SPECIES
+ Re 186.207 re_pbesol_v1.2.uspp.F.UPF
+ATOMIC_POSITIONS crystal
+Re            0.3333330000        0.0000000000        0.0000000000
+Re            0.0000000000        0.3333330000        0.0000000000
+Re            0.6666670000        0.6666670000        0.0000000000
+Re            0.0000000000        0.0000000000        0.1233038414
+Re            0.6666670000        0.3333330000        0.1158988185
+Re            0.3333330000        0.6666670000        0.1158988185
+K_POINTS automatic
+ 6 6 1 0 0 0

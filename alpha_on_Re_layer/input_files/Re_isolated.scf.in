@@ -1,0 +1,25 @@
+ &control
+    prefix        = 'rhenium',
+    calculation   = 'scf',
+    pseudo_dir    = '../pseudo',
+    outdir        = '../outdir'
+ /
+ &system    
+    ibrav         = 1,
+    celldm(1)     = 20.0
+    nat           = 1,
+    ntyp          = 1,
+    ecutwfc       = 50.0,
+    nspin=2,
+    starting_magnetization = 0.5
+    occupations= 'smearing',
+    smearing   = 'marzari-vanderbilt',
+    degauss    = 0.02
+ /
+ &electrons
+ /
+ATOMIC_SPECIES
+ Re 186.207 re_pbesol_v1.2.uspp.F.UPF
+ATOMIC_POSITIONS alat
+ Re 0.00 0.00 0.00
+K_POINTS gamma

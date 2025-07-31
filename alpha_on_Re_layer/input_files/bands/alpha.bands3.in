@@ -1,0 +1,6 @@
+&bands
+    prefix        = 'borophene',
+    outdir        = '../../outdir',
+    filband = 'alphabands.dat',
+    lsym = .true.
+/
