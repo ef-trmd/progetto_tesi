@@ -7,4 +7,7 @@
 
 #Risultati
 - Si ottiene una struttura buckled: se si prendono come centri degli esagoni gli atomi 11 e 13 (quelli più alti), i legami tra centri e vertici hanno lunghezze alternativamente 1.65 A e 1.61 A, mentre quelli tra vertici sono alternativamente 1.60 e 1.69 A. I due esagoni sembrano equivalenti, come mi aspetto per simmetria.
-- Gli atomi più alti e quelli più bassi dello strato di borofene sono sfalsati di circa 0.62 A.
+- Gli atomi più alti e quelli più bassi dello strato di borofene sono sfalsati di circa 0.62 A. La separazione lungo z layer-substrato è:
+  - minima: 1.81 A (differenza coordinata z tra atomi 7/9/14 e proiezione sul punto medio del triangolo di renio sottostante)
+  - massima: 2.48 A (differenza coordinata z tra atomi 5/6 e 11/13)
+  - media (pesata): (1.83 A x3 + 2.48 A x2 + 2.15 A x3)/8 = 2.11 A

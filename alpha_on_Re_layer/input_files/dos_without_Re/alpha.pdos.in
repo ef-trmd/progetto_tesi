@@ -1,0 +1,10 @@
+&projwfc
+
+ prefix = 'borophene'
+ outdir = '../../outdir'
+ filPdos = 'justalphapdos.dat'
+ !Emin = 
+ !Emax = 
+ DeltaE = 0.01
+
+/

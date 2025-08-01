@@ -1,0 +1,53 @@
+
+     Program DOS v.7.2 starts on  8Jul2025 at 11:39: 8 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI & OpenMP), running on       2 processor cores
+     Number of MPI processes:                 1
+     Threads/MPI process:                     2
+
+     MPI processes distributed on     1 nodes
+     217 MiB available memory on the printing compute node when the environment starts
+
+
+     Reading xml data from directory:
+
+     ../../outdir/borophene.save/
+     file B.pbesol-n-rrkjus_psl.1.0.0.UPF: wavefunction(s)  2S renormalized
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PBESOL
+                           (   1   4  10   8   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+
+     G-vector sticks info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Sum        1777    1777    499               120595   120595   17639
+
+     Using Slab Decomposition
+
+
+     negative rho (up, down):  8.377E-04 0.000E+00
+
+     Tetrahedra used
+
+
+     DOS          :      3.67s CPU      3.61s WALL
+
+
+   This run was terminated on:  11:39:11   8Jul2025            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

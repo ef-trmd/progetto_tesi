@@ -1,0 +1,10 @@
+&dos
+
+ prefix = 'borophene'
+ outdir = '../../outdir'
+ fildos = 'alphados.dat'
+ !Emin = 
+ !Emax = 
+ DeltaE = 0.01
+
+/
