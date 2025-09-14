@@ -1,14 +1,7 @@
 &control
-    calculation = 'relax',
-    !nstep = 0
+    calculation = 'scf',
     prefix = 'borophene',
     outdir = './outdir',
-    pseudo_dir = '/leonardo/home/userexternal/efornasi/pseudo'
-    etot_conv_thr = 1.0D-4
-    forc_conv_thr = 1.0D-3
-    restart_mode = 'restart'
-    verbosity='high'
-    max_seconds = 10800
     /
 &system
     ibrav = 4,
@@ -16,16 +9,6 @@
     celldm(3) = 2.3304, !4.458*5/9.564 con vuoto = 4.458*3 = 13.374 A
     nat = 77, !48 di Re + 36 di B - 7 buchi di B
     ntyp = 2,    
-    ecutwfc = 70,
-    ecutrho = 560,
-    occupations= 'smearing',
-    smearing   = 'marzari-vanderbilt',
-    degauss = 0.03
-    /
-&electrons
-    electron_maxstep = 300
-    /
-&ions
     /
 ATOMIC_SPECIES
  B  10.811  B.pbesol-n-rrkjus_psl.1.0.0.UPF
@@ -108,5 +91,3 @@ B 0.333333 0.833333 0.400000
 B 0.500000 0.833333 0.400000
 B 0.666667 0.833333 0.400000
 B 0.833333 0.833333 0.400000
-K_POINTS automatic
-4 4 1 0 0 0

@@ -3,8 +3,8 @@ from decimal import Decimal, getcontext
 # Imposta la precisione numerica
 getcontext().prec = 10
 
-input_file = "input.qe"   # sostituisci col nome del file se diverso
-output_file = "output.qe"  # nome del file di output
+input_file = "big_hex_1.relax.in"
+output_file = "big_hex_3.relax.in"
 
 updated_lines = []
 
